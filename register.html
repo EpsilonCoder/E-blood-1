@@ -48,10 +48,15 @@
     <p class="text-center fw-bold ">Donnez son sang , C'est sauvez des vies</p>
       <div class="card col-12 col-sm-10 col-md-8 col-lg-6 mx-auto">
         <div class="card-body">
-          <h5 class="card-title text-center ">Connectez-vous</h5>
-
+          <h5 class="card-title text-center">S'inscrire</h5>
           <!-- General Form Elements -->
           <form>
+            <div class="row mb-3">
+              <label for="inputText" class="col-form-label">Nom et prenom</label>
+              <div class="col-sm-12">
+                <input type="text" class="form-control">
+              </div>
+            </div>
             <div class="row mb-3">
               <label for="inputEmail" class="col-form-label">Adresse Email</label>
               <div class="col-sm-12">
@@ -65,28 +70,64 @@
               </div>
             </div>
             <div class="row mb-3">
+              <label for="inputNumber" class="col-form-label">Tel</label>
+              <div class="col-sm-12">
+                <input type="number" class="form-control">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputNumber" class="col-form-label">Photo de profil</label>
+              <div class="col-sm-12">
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputDate" class="col-form-label">Date de naissance</label>
+              <div class="col-sm-12">
+                <input type="date" class="form-control">
+              </div>
+            </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label  pt-0">Sexes</legend>
+              <div class="h-form-check ">
+                <input class="form-check-input bg-danger" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                  checked="">
+                <label class="form-check-label" for="gridRadios1">
+                  M
+                </label>
+              </div>
+              <div class="h-form-check ">
+                <input class="form-check-input bg-danger" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  F
+                </label>
+              </div>
+              <!-- <div class="col-sm-10">
+          </div> -->
+            </fieldset>
+            <div class="row mb-3">
               <div class="col-sm-10">
                 <div class="h-form-check">
                   <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                    Se souvenir de moi
+                  <label class="form-check-label text-dark" for="gridCheck1">
+                    j'ai lu et j'accepte les <a href="" class="link-dark">termes et conditions</a>
                   </label>
                 </div>
               </div>
             </div>
+
             <div class="row mb-3">
               <div class="col-sm-12">
-                <button type="submit" class="btn btn-danger">Se connecter</button>
+                <a href="./index.html" class="btn btn-danger">S'inscrire</a>
+                <a href="index.html" class="link-danger">J'ai deja de compte</a>
               </div>
+
             </div>
-            <div class="divider"></div>
-            <a href="register.html" class="link-danger">Je n'ai pas de compte</a>
 
           </form><!-- End General Form Elements -->
 
         </div>
       </div>
-  
 
   </main><!-- End #main -->
   </div>
@@ -95,12 +136,7 @@
   <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/quill/quill.min.js"></script>
-  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
